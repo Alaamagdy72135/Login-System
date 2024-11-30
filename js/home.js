@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 signOutBtn.addEventListener("click", function () {
     signOut();
+    signOutMessage();
     setTimeout(function () {
-        signOutMessage();
         window.location.href = "login.html";
     }, 3000);
 });
